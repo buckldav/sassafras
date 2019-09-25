@@ -1,0 +1,23 @@
+{
+  "name": "sassafras",
+  "version": "1.0.0",
+  "description": "Learning Sass and SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch main.scss -o styles --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckldav/sassafras.git"
+  },
+  "author": "David Buckley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buckldav/sassafras/issues"
+  },
+  "homepage": "https://github.com/buckldav/sassafras#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

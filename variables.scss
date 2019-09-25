@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$color-primary: #231651;
+$color-white: #f9f7ff;
+$color-black: #0D081E;
+
+$color-background: $color-white;
+$color-heading: $color-primary;
+$color-link: #2374AB;
+$color-danger: #FF8484;
+$color-text: $color-black;
+
+$color-nav-background: $color-black;
+$color-nav: $color-white;
+
+$font-primary: 'Roboto', sans-serif;
+
+$grid-breakpoints: ("xs": 350, "sm": 500, "md": 750, "lg": 1000, "xl": 1200);
+
+// TODO: add margin, padding, container variables
+$padding-nav: 1rem;
